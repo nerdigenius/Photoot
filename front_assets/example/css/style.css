@@ -1,0 +1,52 @@
+.input-group span {
+    margin-bottom: 0px;
+    margin-top: -7px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.badge-dark {
+    font-weight: 700;
+    color: #000000;
+    background-color: #B7B9BA;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px;
+    line-height: 1;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 50%;
+    transition: color .15s ease-in-out,
+        background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control {
+    text-align: center;
+    border-radius: 0px;
+    width: 80%;
+}
+
+select.form-control {
+    border-radius: 0px;
+    text-align: center !important;
+}
+
+.input-group.mb-3 {
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.input-group span h3 {
+    color: #EB3537;
+    font-weight: bold;
+}
+
+.delivery-time {
+    margin-top: 45px;
+}

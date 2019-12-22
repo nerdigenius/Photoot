@@ -1,0 +1,21 @@
+.bank{
+    display: block;
+    overflow: hidden;
+    padding: 15px 0;
+    background: #F9E5DB;
+    border: 1px solid #c1b3b3;
+}
+.bank p{
+    font-size: 18px;
+    color: #000;
+}
+.bank h3{
+    font-size: 25px;
+}
+.upload-success{
+    text-align: center;
+    padding: 20px 0;
+}
+.upload-success i{
+    margin-top: 0;
+}

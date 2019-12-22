@@ -1,0 +1,10 @@
+#my-tab table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#my-tab td, th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}

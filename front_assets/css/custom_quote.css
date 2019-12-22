@@ -1,0 +1,54 @@
+  .top-div
+  {
+      margin-bottom: 11px;
+  }
+  .bottom-div
+  {
+  	  border: 1px solid rgba(0,0,0,.125);
+  	  padding: 20px;
+  	  margin-bottom: 11px;
+  }
+  nav > div a.nav-item.nav-link:hover,
+  nav > div a.nav-item.nav-link:focus
+  {
+    border: none;
+    background: #e74c3c;
+    color:#fff;
+    border-radius:0;
+    transition:background 0.20s linear;
+	}
+	.icon
+	{
+		margin-left: 8px;
+	}
+
+	.dropbox-url{
+		width: 45%;
+		padding: 20px;
+    	border: 1px solid red;
+	}
+
+	.c_right{
+		margin-left: 6px;
+	}
+
+	.top-box{
+		border: 1px solid rgba(0,0,0,.125);
+		margin-bottom: 11px;
+		padding: 15px;
+	}
+
+	.top-p{
+		font-size: 24px;
+		color: #000;
+		font-weight: 600;
+		font-style: italic;
+		padding: 0px;
+		margin: 0px;
+		line-height: 30px;
+	}
+	.claim-button{
+		border-radius: 20px;
+		background-color: #ff0000;
+		color: #fff;
+	}

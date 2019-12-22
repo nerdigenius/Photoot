@@ -1,0 +1,153 @@
+#bank.row1 {
+    border: 1px solid #ccc;
+}
+
+#bank .billing {
+    padding: 5px 22px;
+    font-size: 18px;
+    color: white;
+    background: #F11411;
+}
+
+#bank .content {
+    padding: 5px 15px;
+}
+
+#bank .content p {
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+
+#bank .details p {
+    font-size: 16px;
+    color: #000;
+}
+
+#bank .details {
+    padding: 5px 10px;
+    margin-top: 25px;
+}
+
+#bank h5.pay {
+    margin-left: 10px;
+    margin-right: auto;
+    padding: 8px 0px;
+    border-top: 2px solid #777;
+    border-bottom: 2px solid #777;
+    width: 820px;
+    overflow: hidden;
+}
+
+#bank .form-check-inline .form-check-input {
+    position: static;
+    margin-top: 0;
+    margin-right: .3125rem;
+    margin-left: 8px;
+}
+
+#bank .form-check-label {
+    font-size: 20px;
+    font-weight: 500;
+    color: #222;
+}
+
+#bank .para1 {
+    color: #333;
+    width: 80%;
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+#bank .para2 {
+    color: #333;
+    width: 80%;
+    margin-top: 5px;
+    font-weight: normal;
+    margin-left: 25px;
+}
+
+#bank .para3 {
+    margin-left: 25px;
+    color: #F11411;
+    font-weight: 500;
+    width: 90%;
+    font-size: 14px;
+}
+
+#bank .table td,
+.table th {
+    color: #222;
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    font-weight: normal;
+}
+
+#bank .cart-total th {
+    font-weight: 600;
+    color: #000;
+}
+
+#bank .coupon h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#bank .coupon p {
+    font-weight: 500;
+    font-size: 13px;
+    color: #111;
+}
+
+#bank .row2 {
+    background: #e5e5e5;
+    padding: 20px 25px;
+    margin: 10px 0;
+    
+}
+
+#bank .row3 {
+    padding: 10px 25px;
+    border: 1px solid #ccc;
+}
+
+#bank .row3 p {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+#bank .scrollable {
+    height: 150px;
+    overflow: scroll;
+}
+
+#bank input.form-control.mr-sm-2 {
+    width: 60%;
+    border-radius: 0px;
+}
+
+#bank button.btn.btn-danger {
+    background: #F11411;
+    padding: 7px 40px;
+    border: none;
+    border-radius: 7px;
+}
+
+#bank .main-btn {
+    background: #F11411;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    padding: 7px 15px;
+
+}
+.checkout p {
+    font-size: 11px;
+    line-height: 1px;
+}
+.btton{
+    border-radius:7px;
+}
+.details
