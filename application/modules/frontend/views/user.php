@@ -618,6 +618,11 @@
                                                     <input type="text" class="u_p_input" name="fax" value="<?php echo $user_info->fax; ?>" id="account-details-fax">
                                                 </div>
 
+                                                <div class="single-input single-input-half">
+                                                    <label for="account-details-province" class="u_p_lbl">Province</label>
+                                                    <input type="text" class="u_p_input" name="province" value="<?php echo $user_info->province; ?>" id="account-details-province">
+                                                </div>
+
                                                 <?php if($user_info->typeRadio != "private"): ?>
 
                                                 <div class="single-input single-input-half">

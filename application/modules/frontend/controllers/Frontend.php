@@ -894,7 +894,8 @@
                 $this->form_validation->set_rules('fiscal', 'Fiscal Code', 'trim|required');
             }
             $this->form_validation->set_rules('telephone', 'Telephone', 'trim|required');
-            $this->form_validation->set_rules('fax', 'Fax', 'trim');
+			$this->form_validation->set_rules('fax', 'Fax', 'trim');
+			$this->form_validation->set_rules('province', 'Province', 'trim');
             // $this->form_validation->set_rules('typeAgree', 'Accept', 'trim|required');
 
             if( $this->form_validation->run() == FALSE ){
@@ -917,7 +918,8 @@
 	    		'sdi' => $this->input->post('sdi'),
 	    		'fiscal' => $this->input->post('fiscal'),
 	    		'telephone' => $this->input->post('telephone'),
-	    		'fax' => $this->input->post('fax'),
+				'fax' => $this->input->post('fax'),
+				'province' => $this->input->post('province'),
 	    	];
 	    	// var_dump($data); exit();
 

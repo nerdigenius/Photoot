@@ -336,6 +336,12 @@
                                         <input type="text" name="fax" class="form-control" id="fax">
                                     </div>
                                 </div>
+                                <div class="col-md-6 province">
+                                    <div class="form-group">
+                                        <label for="province">Province</label>
+                                        <input type="text" name="province" class="form-control" id="province">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -352,7 +358,7 @@
                         </div>
                         <div class="card-footer">
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="typeAgree" id="iaccept" value="iaccept" checked="checked">
+                                <input class="form-check-input" type="radio" name="typeAgree" id="iaccept" value="iaccept" >
                                 <label class="form-check-label" for="iaccept">I accept</label>
                             </div>
                             <div class="form-check form-check-inline">
