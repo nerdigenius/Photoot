@@ -266,22 +266,26 @@
                                         <input type="text" name="d_surname" class="form-control" id="d_surname">
                                     </div>
                                 </div>
-                                <div class="col-md-6 company_name">
-                                    <div class="form-group">
-                                        <label for="c_name">Company Name *</label>
-                                        <input type="text" name="c_name" class="form-control" id="c_name">
-                                    </div>
-                                </div>
-                                <div class="col-md-6 vat">
-                                    <div class="form-group">
-                                        <label for="d_vat">VAT <sup>*</sup></label>
-                                        <input type="text" name="d_vat" class="form-control" id="d_vat">
-                                    </div>
-                                </div>
                                 <div class="col-md-12 address">
                                     <div class="form-group">
                                         <label for="d_address">Address *</label>
                                         <input type="text" name="d_address" class="form-control" id="d_address">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 country">
+                                    <div class="form-group">
+                                        <label for="d_country" class="">Country *</label>
+                                        <select name="d_country" id="d_country" class="col-sm-12 form-control">
+                                            <?php foreach($country as $key => $value): ?>
+                                                <option value="<?php echo $value->name?>"><?php echo $value->name?></option>
+                                            <?php endforeach ?>
+                                        </select>                                       
+                                    </div>
+                                </div>
+                                <div class="col-md-4 province">
+                                    <div class="form-group">
+                                        <label for="province">Province *</label>
+                                        <input type="text" name="province" class="form-control" id="province">
                                     </div>
                                 </div>
                                 <div class="col-md-4 city">
@@ -296,16 +300,34 @@
                                         <input type="text" name="d_zip" class="form-control" id="d_zip">
                                     </div>
                                 </div>
-                                <div class="col-md-4 country">
+                                <div class="col-md-4 telephone">
                                     <div class="form-group">
-                                        <label for="d_country" class="">Country *</label>
-                                        <select name="d_country" id="d_country" class="col-sm-12 form-control">
-                                            <?php foreach($country as $key => $value): ?>
-                                                <option value="<?php echo $value->name?>"><?php echo $value->name?></option>
-                                            <?php endforeach ?>
-                                        </select>                                       
+                                        <label for="telephone">Telephone *</label>
+                                        <input type="text" name="telephone" class="form-control" id="telephone">
                                     </div>
                                 </div>
+                                <div class="col-md-4 fax">
+                                    <div class="form-group">
+                                        <label for="fax">FAX</label>
+                                        <input type="text" name="fax" class="form-control" id="fax">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 company_name">
+                                    <div class="form-group">
+                                        <label for="c_name">Company Name *</label>
+                                        <input type="text" name="c_name" class="form-control" id="c_name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 vat">
+                                    <div class="form-group">
+                                        <label for="d_vat">VAT <sup>*</sup></label>
+                                        <input type="text" name="d_vat" class="form-control" id="d_vat">
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                               
                                 <div class="col-md-6 pec">
                                     <div class="form-group">
                                         <label for="pec">PEC *</label>
@@ -318,30 +340,15 @@
                                         <input type="text" name="sdi" class="form-control" id="sdi">
                                     </div>
                                 </div>
-                                <div class="col-md-12 fiscal_code">
+                                <div class="col-md-6 fiscal_code">
                                     <div class="form-group">
                                         <label for="fiscal">Fiscal code *</label>
                                         <input type="text" name="fiscal" class="form-control" id="fiscal">
                                     </div>
                                 </div>
-                                <div class="col-md-6 telephone">
-                                    <div class="form-group">
-                                        <label for="telephone">Telephone *</label>
-                                        <input type="text" name="telephone" class="form-control" id="telephone">
-                                    </div>
-                                </div>
-                                <div class="col-md-6 fax">
-                                    <div class="form-group">
-                                        <label for="fax">FAX</label>
-                                        <input type="text" name="fax" class="form-control" id="fax">
-                                    </div>
-                                </div>
-                                <div class="col-md-6 province">
-                                    <div class="form-group">
-                                        <label for="province">Province</label>
-                                        <input type="text" name="province" class="form-control" id="province">
-                                    </div>
-                                </div>
+                                
+                                
+                                
                             </div>
                         </div>
                     </div>

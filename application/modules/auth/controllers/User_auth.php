@@ -35,11 +35,14 @@
                     $this->form_validation->set_rules('d_vat', 'Details Vat', 'trim|required');
                     $this->form_validation->set_rules('pec', 'PEC', 'trim|required');
                     $this->form_validation->set_rules('sdi', 'SDI', 'trim|required');
-                    $this->form_validation->set_rules('fiscal', 'Fiscal Code', 'trim|required');
+                    
                 }
+                $this->form_validation->set_rules('fiscal', 'Fiscal Code', 'trim|required');
                 $this->form_validation->set_rules('telephone', 'Telephone', 'trim|required');
                 $this->form_validation->set_rules('fax', 'Fax', 'trim');
-                $this->form_validation->set_rules('typeAgree', 'Accept', 'trim');    
+                $this->form_validation->set_rules('typeAgree', 'Accept', 'trim');   
+                $this->form_validation->set_rules('province', 'Province', 'trim|required');
+ 
                 
      
                 if( $this->form_validation->run() == FALSE ){

@@ -144,7 +144,7 @@
                                     <input type="text" name="sdi" class="form-control" id="sdi">
                                 </div>
                             </div>
-                            <div class="col-md-12 fiscal_code">
+                            <div class="col-md-6 fiscal_code">
                                 <div class="form-group">
                                     <label for="fiscal">Fiscal code *</label>
                                     <input type="text" name="fiscal" class="form-control" id="fiscal">
@@ -164,7 +164,7 @@
                             </div>
                             <div class="col-md-6 province">
                                 <div class="form-group">
-                                    <label for="province">Province</label>
+                                    <label for="province">Province *</label>
                                     <input type="text" name="province" class="form-control" id="province">
                                 </div>
                             </div>

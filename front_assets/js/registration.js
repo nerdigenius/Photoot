@@ -14,7 +14,6 @@ $(function(){
             $('.vat').addClass('nodisplay');
             $('.pec').addClass('nodisplay');
             $('.sdi').addClass('nodisplay');
-            $('.fiscal_code').addClass('nodisplay');
         }
         else{
 
@@ -22,7 +21,6 @@ $(function(){
             $('.vat').removeClass('nodisplay');
             $('.pec').removeClass('nodisplay');
             $('.sdi').removeClass('nodisplay');
-            $('.fiscal_code').removeClass('nodisplay');
 
         }
 
