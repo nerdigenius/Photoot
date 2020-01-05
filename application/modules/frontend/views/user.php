@@ -173,7 +173,7 @@
                                         <h4 class="small-title">MY ORDERS</h4>
                                         <div class="table-responsive">
                                             <!-- dataTables-example -->
-                                            <table class="table table-bordered table-hover display" id="">
+                                            <table class="table table-bordered table-hover display" id="table_regular">
                                                 <thead>
                                                     <tr>
                                                         <th style="color: black;">ORDER</th>

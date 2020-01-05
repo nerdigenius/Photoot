@@ -368,10 +368,7 @@
                                 <input class="form-check-input" type="radio" name="typeAgree" id="iaccept" value="iaccept" >
                                 <label class="form-check-label" for="iaccept">I accept</label>
                             </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="typeAgree" id="idonotaccept" value="idonotaccept">
-                                <label class="form-check-label" for="idonotaccept">I do not accept</label>
-                            </div>
+                            
                         </div>
                     </div>
                     <button id="regButton" type="submit" class="btn btn-primary">Register Now</button>

@@ -3,4 +3,7 @@ $(document).ready( function () {
 	$('#dataTables-example').DataTable();
 	$('#table_custom').DataTable();
 	$('#free_order_table').DataTable();
+	$('#table_regular').DataTable({
+		"order": [[ 1, "desc" ]]
+		});
 });
