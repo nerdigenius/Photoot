@@ -303,13 +303,13 @@
                                 <div class="col-md-4 telephone">
                                     <div class="form-group">
                                         <label for="telephone">Telephone *</label>
-                                        <input type="text" name="telephone" class="form-control" id="telephone">
+                                        <input type="number" name="telephone" class="form-control" id="telephone">
                                     </div>
                                 </div>
                                 <div class="col-md-4 fax">
                                     <div class="form-group">
                                         <label for="fax">FAX</label>
-                                        <input type="text" name="fax" class="form-control" id="fax">
+                                        <input type="number" name="fax" class="form-control" id="fax">
                                     </div>
                                 </div>
                                 <div class="col-md-6 company_name">
@@ -366,7 +366,7 @@
                         <div class="card-footer">
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="radio" name="typeAgree" id="iaccept" value="iaccept" >
-                                <label class="form-check-label" for="iaccept">I accept</label>
+                                <label class="form-check-label" for="iaccept">I have read the conditions of treatment of my personal data and I give my consent </label>
                             </div>
                             
                         </div>

@@ -321,13 +321,13 @@
                                 <div class="col-md-6 telephone">
                                     <div class="form-group">
                                         <label for="telephone">Telephone *</label>
-                                        <input type="text" name="telephone" class="form-control" id="telephone">
+                                        <input type="number" name="telephone" class="form-control" id="telephone">
                                     </div>
                                 </div>
                                 <div class="col-md-6 fax">
                                     <div class="form-group">
                                         <label for="fax">FAX</label>
-                                        <input type="text" name="fax" class="form-control" id="fax">
+                                        <input type="number" name="fax" class="form-control" id="fax">
                                     </div>
                                 </div>
                                 <div class="col-md-6 province">
