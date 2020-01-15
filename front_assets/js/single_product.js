@@ -171,7 +171,7 @@ $(function(){
         var service_array = {
             'Crop Image': cropImageArr,
             'Multipath': multipathArr,
-            'Shadow/ Reflect': shadowrftArr,
+            'Shadow/Reflect': shadowrftArr,
             'Background Change': backgrondArr,
             'Neckjoint': neckjointArr,
             'Output File Format': oppformatArr,
