@@ -146,28 +146,28 @@
 
                                                 <tr class="cart-subtotal">
                                                     <th class="text-left">Total clipping path</th>
-                                                    <td><b><?='€'.$totalphotoamount?></b></td>
+                                                    <td><b><?='€'.str_replace('.', ',',$totalphotoamount)?></b></td>
                                                 </tr>
                                                 <tr class="cart-subtotal">
                                                     <th class="text-left">Total additional services</th>
-                                                    <td><b><?='€'.$additional_service_value?></b></td>
+                                                    <td><b><?='€'.str_replace('.', ',',$additional_service_value)?></b></td>
                                                 </tr>
                                                 <tr class="cart-subtotal">
                                                     <th class="text-left">Total delivery price</th>
-                                                    <td><b><?='€'.$delivery_price?></b></td>
+                                                    <td><b><?='€'.str_replace('.', ',',$delivery_price)?></b></td>
                                                 </tr>
                                                 <tr class="cart-subtotal">
                                                     <th class="text-left">Net Price</th>
-                                                    <td><b><?='€'.$net_price?></b></td>
+                                                    <td><b><?='€'.str_replace('.', ',',$net_price)?></b></td>
                                                 </tr>
                                                 <tr class="cart-subtotal">
                                                     <th class="text-left">VAT 22%</th>
-                                                    <td><b><?='€'.$vat?></b></td>
+                                                    <td><b><?='€'.str_replace('.', ',',$vat)?></b></td>
                                                 </tr>
                                                 <tr class="cart-total">
                                                     <th class="text-left">TOTAL ORDER VAT INCLUDED
                                                     </th>
-                                                    <td><b><?php echo '€'.$this->cart->total(); ?></b></td>
+                                                    <td><b><?php echo '€'.str_replace('.', ',',$this->cart->total() )?></b></td>
                                                     <input type="hidden" name="total" value="<?= $this->cart->total(); ?>">
                                                 </tr>
                                                 <?php }else{ ?>

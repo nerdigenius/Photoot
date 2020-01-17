@@ -50,6 +50,10 @@
             .top-table tr th{
                 border: 2px solid black !important;
             }
+           .ulStyle{
+                list-style-type:none;
+                color:black;
+            }
         </style>
         <div class="container">
             <div class="row">
@@ -104,10 +108,26 @@
                                                             <ul style="text-align: left;">
                                                             <?php 
                                                             $deta = json_decode($item['additional_service']);
+
+                                                            
                                                             if (is_object($deta)) {
                                                                 $serviceName = array_keys( (array)$deta );
                                                                 foreach ($serviceName as $key => $value) {
                                                                     echo '<li>'.$value.'</li>';
+                                                                    if ($value=='Shadow/Reflect')
+                                                                    {
+                                                                        echo "<div><ul ​class='ulStyle'";
+                                                                       
+                                                                       echo '<li><span>'.$deta->{'Shadow/Reflect'}->{'Option'}.'</span></li>';
+                                                                       echo "</ul></div>";
+                                                                    }
+                                                                    if ($value=='Crop Image')
+                                                                    { 
+                                                                        echo "<div><ul class='ulStyle'>";
+                                                                        echo '<li><span>'.$deta->{'Crop Image'}->{'Size'}.'</span></li>';
+                                                                        echo'<li><span>'.$deta->{'Crop Image'}->{'Res'}.'</span></li>';
+                                                                        echo "</ul></div>";
+                                                                    }
                                                                 }
                                                             }
                                                             ?>
